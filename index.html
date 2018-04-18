@@ -62,6 +62,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-PHP正则表达式学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/echoblog/2018/04/17/PHP正则表达式学习笔记/" class="article-date">
+  <time datetime="2018-04-17T07:04:22.000Z" itemprop="datePublished">2018-04-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/echoblog/2018/04/17/PHP正则表达式学习笔记/">PHP正则表达式学习笔记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="表达式的构成"><a href="#表达式的构成" class="headerlink" title="表达式的构成"></a>表达式的构成</h2><p>/原子、元字符/模式修正符</p>
+<h3 id="定界符"><a href="#定界符" class="headerlink" title="定界符"></a>定界符</h3><p>/：定界符之间的部分即为匹配的模式。</p>
+<h3 id="定位符"><a href="#定位符" class="headerlink" title="定位符"></a>定位符</h3><p>php使用\^和\$分别作为正则的开始和结束,除非^在中括号内开始，表示非<br>Exp:”^Lisa”匹配Lisa开始的所有字符串<br>“Lisa$”匹配所有以Lisa结束的字符串</p>
+<h2 id="原子构成"><a href="#原子构成" class="headerlink" title="原子构成"></a>原子构成</h2><h3 id="限定符"><a href="#限定符" class="headerlink" title="限定符"></a>限定符</h3><p>+：表示其前导对象至少出现一次<br>*：表示其前导对象出现0次或多次<br>?：表示其前导对象出现0次或一次  </p>
+<h3 id="代表范围的原子"><a href="#代表范围的原子" class="headerlink" title="代表范围的原子"></a>代表范围的原子</h3><p>\s：表示单个空格符，包括tab键(\t)和换行 (\n)<br>\S：表示除了空格符之外的所有单个字符<br>\d：表示0-9的一个数字<br>\D：表示除了数字之外的符号<br>\w：表示字母、数字和下划线单个字符，等价于[0-9a-zA-Z_]<br>\W：表示除了字母、数字和下划线之外的所有单个字符,等价于[^0-9a-zA-Z]<br>.：表示除了换行符(\n)之外的所有单个字符<br>\b：匹配一个单词的边界，exp:’er\b’可以匹配nerver,但不会匹配verb<br>\B：匹配非单词边界，exp:’er\B’可以匹配所有不以er结尾的字符串，但是不会匹配以er结尾的字符串（与\b相反）</p>
+<h3 id="其他特殊字符说明"><a href="#其他特殊字符说明" class="headerlink" title="其他特殊字符说明"></a>其他特殊字符说明</h3><p>()：标记子表达式的开始和结束位置，若要匹配该符号，可以使用转义符号\<br>[]：匹配括号内的任一字符，注意：，只匹配一个字符<br>[^]：负值匹配，匹配人和不再指定范围内的任一字符</p>
+<h3 id="模式修正符"><a href="#模式修正符" class="headerlink" title="模式修正符"></a>模式修正符</h3><p>i：不区分大小写<br>g：</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/PHP正则表达式学习笔记/" data-id="cjg59k16y0000aib1skl4k8tp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-我的个人博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/echoblog/2018/04/17/我的个人博客/" class="article-date">
@@ -88,7 +131,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/我的个人博客/" data-id="cjg59hqry00008bb1rwwjao7c" class="article-share-link">Share</a>
+      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/我的个人博客/" data-id="cjg59k1890001aib1jnzqgz6l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -196,7 +239,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/markdown_study/" data-id="cjg59hqs300018bb1yyy5n8jd" class="article-share-link">Share</a>
+      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/markdown_study/" data-id="cjg59k18b0002aib1nalvxxim" class="article-share-link">Share</a>
       
       
     </footer>
@@ -241,7 +284,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/hello-world/" data-id="cjg59hqs600028bb1zv8irdf2" class="article-share-link">Share</a>
+      <a data-url="https://zhanglinxia.github.io/echoblog/2018/04/17/hello-world/" data-id="cjg59k18e0003aib1m3v9txvn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -280,6 +323,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/echoblog/2018/04/17/PHP正则表达式学习笔记/">PHP正则表达式学习笔记</a>
+          </li>
         
           <li>
             <a href="/echoblog/2018/04/17/我的个人博客/">我的个人博客</a>
